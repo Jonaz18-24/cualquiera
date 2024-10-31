@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Bienvenida e Inicio de Sesión</title>
+    <!-- Enlace a Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sección de bienvenida -->
+        <div class="welcome-section">
+            <h1>Welcome to the website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pretium malesuada mi.</p>
+            <div class="illustration">
+                <img src="img/books-8934573_1280.jpg" alt="Illustration">
+            </div>
+        </div>
+
+        <!-- Sección de inicio de sesión -->
+        <div class="login-section">
+            <h2>USER LOGIN</h2>
+            <form>
+                <div class="input-group">
+                    <i class="bx bx-user"></i>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                <div class="input-group">
+                    <i class="bx bx-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="options">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-button">LOGIN</button>
+                <a href="#" class="create-account">Create Account</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
